@@ -1,0 +1,280 @@
+; vim: ft=colortemplate fdm=marker et ts=2 sw=2
+
+; Information {{{
+; Mandatory
+Full name:     RAMS
+Short name:    rams
+Author:        Stefan VanBuren <vanburenstefan@gmail.com>
+; Optional
+Maintainer:    Stefan VanBuren <vanburenstefan@gmail.com>
+Website:       https://svbn.me
+Description:   a minimal colorscheme
+License:       MIT
+Option Prefix: rams
+Neovim:        yes
+; }}}
+
+; Documentation {{{
+Include: _help.colortemplate
+; }}}
+
+; Common linked groups {{{
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Debug             -> Special
+Define            -> PreProc
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PopupSelected     -> PmenuSel
+PreCondit         -> PreProc
+QuickFixLine      -> Search
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+; See `:help lCursor`
+lCursor           -> Cursor
+; }}}
+
+Background: dark
+
+; Color palette for dark variant {{{
+; Color name                GUI                  Base256    Base16
+Color: black                rgb(  8,   8,   8)     ~        none
+Color: white                rgb(184, 184, 184)     ~        none
+Color: accent               rgb(255,  61,  88)     ~        none
+; TODO: Tweak these values
+Color: grey                 rgb(107, 112, 120)     ~        none
+Color: green                rgb(174, 255, 139)     ~        none
+Color: red                  rgb(255, 114, 110)     ~        none
+; }}}
+
+; Terminal colors for dark variant {{{
+Term colors: black grey accent grey grey grey grey grey
+Term colors: black grey accent grey grey grey grey grey
+; }}}
+
+; Definitions common to all variants {{{
+Variant: gui 256 8
+
+Normal           white             black
+Terminal         white             black
+
+; Group              Foreground        Background        Attributes
+ColorColumn          white             black
+Conceal              none              none
+Cursor               white             black
+CursorColumn         white             black
+CursorLine           white             black
+CursorLineNr         white             black
+DiffAdd              black             green
+DiffChange           white             black             reverse
+DiffDelete           black             red
+DiffText             white             black             bold,reverse
+Directory            white             black
+EndOfBuffer          white             black
+ErrorMsg             white             black             reverse
+FoldColumn           white             black
+Folded               white             black             italic
+IncSearch            accent            black             bold
+LineNr               white             black
+MatchParen           accent            black             bold,reverse
+ModeMsg              white             black
+MoreMsg              white             black
+NonText              grey              black
+Pmenu                white             black
+PmenuSbar            white             black
+PmenuSel             white             black             reverse
+PmenuThumb           white             black
+Question             white             black
+Search               accent            black             bold
+SignColumn           white             black
+SpecialKey           white             black
+SpellBad             accent            black             undercurl
+SpellCap             white             black
+SpellLocal           white             black
+SpellRare            white             black
+StatusLine           white             black
+StatusLineNC         white             black
+Substitute           accent            black             bold,reverse
+TabLine              white             black
+TabLineFill          white             black
+TabLineSel           white             black             reverse
+Title                white             black
+VertSplit            white             black
+Visual               white             black             reverse
+VisualNOS            white             black
+WarningMsg           white             black
+WildMenu             white             black             reverse
+; Other conventional group names (see `:help group-name`)
+Comment              grey              none              italic
+Constant             white             none
+Error                white             black             reverse
+Identifier           white             none              bold
+Ignore               white             none
+PreProc              white             none
+Special              white             none
+Statement            white             none              bold
+Todo                 accent            none              bold,underline
+Type                 white             none
+Underlined           white             none
+; See `:help CursorIM`
+CursorIM             none              fg
+; See `:help window-toolbar`
+ToolbarLine          none              white
+ToolbarButton        white             black             bold
+; }}}
+
+; Additional highlight groups {{{
+; Add additional highlight groups here if you want
+
+; w0rp/ale
+ALEError                         accent none underline
+ALEWarning                       accent none underline
+ALEInfo                          accent none underline
+ALEErrorSign                     accent none
+ALEWarningSign                   accent none
+ALEInfoSign                      accent none
+
+; these are needed for things like inline diffs in Fugitive to work.
+; from runtime/syntax/diff.vim
+diffAdded -> DiffAdd
+diffRemoved -> DiffDelete
+
+; vim-better-whitespace
+ExtraWhitespace -> SpellBad
+
+; when editing git commit text, highlight the overflow in the first line (over 50 characters).
+gitcommitOverflow -> SpellBad
+
+; }}}
+
+Background: light
+
+; Color palette for light variant {{{
+; Color name                GUI                  Base256    Base16
+Color: black                rgb( 38,  43,  49)     ~        none
+Color: white                rgb(235, 235, 235)     ~        none
+Color: accent               rgb(238,  72,  62)     ~        none
+Color: grey                 rgb(107, 112, 120)     ~        none
+Color: green                rgb(174, 255, 139)     ~        none
+Color: red                  rgb(255, 114, 110)     ~        none
+; }}}
+
+; Terminal colors for light variant {{{
+Term colors: black grey accent grey grey grey grey grey
+Term colors: black grey accent grey grey grey grey grey
+; }}}
+
+; Definitions common to all variants {{{
+Variant: gui 256 8
+
+Normal           black             white
+Terminal         black             white
+
+; Group              Foreground        Background        Attributes
+ColorColumn          white             black
+Conceal              none              none
+Cursor               omit              omit
+CursorColumn         black             grey
+CursorLine           black             white
+CursorLineNr         black             white             bold
+DiffAdd              black             green
+DiffChange           black             white             reverse
+DiffDelete           black             red
+DiffText             black             white             bold
+Directory            black             white
+EndOfBuffer          black             white
+ErrorMsg             black             white             reverse
+FoldColumn           black             white
+Folded               black             white             italic
+IncSearch            white             accent            bold,italic
+LineNr               black             white
+MatchParen           white             accent            bold,reverse
+ModeMsg              black             white
+MoreMsg              black             white
+NonText              grey              none
+Pmenu                black             white
+PmenuSbar            black             white
+PmenuSel             black             white             reverse
+PmenuThumb           black             white
+Question             black             white
+Search               accent            white             bold,reverse
+SignColumn           black             white
+SpecialKey           black             white
+SpellBad             accent            white             underline
+SpellCap             black             white
+SpellLocal           black             white
+SpellRare            black             white
+StatusLine           black             white             reverse
+StatusLineNC         black             white
+Substitute           black             white             bold,italic,reverse
+TabLine              black             white
+TabLineFill          black             white
+TabLineSel           black             white             reverse
+Title                black             white
+VertSplit            black             white
+Visual               black             white             reverse
+VisualNOS            black             white
+WarningMsg           black             white
+WildMenu             black             white             reverse
+; Other conventional group names (see `:help group-name`)
+Comment              grey              none              italic
+Constant             black             none
+Error                black             white             reverse
+Identifier           black             none              bold
+Ignore               black             none
+PreProc              black             none
+Special              black             none
+Statement            black             none              bold
+Todo                 accent            none              bold,underline
+Type                 black             none
+Underlined           black             none
+; See `:help CursorIM`
+CursorIM             none              fg
+; See `:help window-toolbar`
+ToolbarLine          none              black
+ToolbarButton        black             white             bold
+; }}}
+
+; Additional highlight groups {{{
+; Add additional highlight groups here if you want
+
+; w0rp/ale
+ALEError                         accent none underline
+ALEWarning                       accent none underline
+ALEInfo                          accent none underline
+ALEErrorSign                     accent none
+ALEWarningSign                   accent none
+ALEInfoSign                      accent none
+
+; these are needed for things like inline diffs in Fugitive to work.
+; from runtime/syntax/diff.vim
+diffAdded -> DiffAdd
+diffRemoved -> DiffDelete
+
+; vim-better-whitespace
+ExtraWhitespace -> SpellBad
+
+; when editing git commit text, highlight the overflow in the first line (over 50 characters).
+gitcommitOverflow -> SpellBad
+
+; }}}
+
+Background: any
+Include: _bw.colortemplate
