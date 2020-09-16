@@ -3,3 +3,5 @@
 A minimalistic vim colorscheme, inspired by the work of Dieter Rams.
 
 The colorscheme is currently generated via https://github.com/lifepillar/vim-colortemplate[vim-colortemplate].
+
+I've described the colorscheme in a bit more detail https://svbn.me/blog/rams.vim[on my website].
