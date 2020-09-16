@@ -1,4 +1,4 @@
-# rams.vim
+= rams.vim
 
 A minimalistic vim colorscheme, inspired by the work of Dieter Rams.
 
