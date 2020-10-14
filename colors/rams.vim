@@ -102,7 +102,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi Search guifg=#ff3d58 guibg=#080808 gui=bold cterm=bold
     hi SignColumn guifg=#b8b8b8 guibg=#080808 gui=NONE cterm=NONE
     hi SpecialKey guifg=#b8b8b8 guibg=#080808 gui=NONE cterm=NONE
-    hi SpellBad guifg=#ff3d58 guibg=#080808 gui=undercurl cterm=undercurl
+    hi SpellBad guifg=#ff3d58 guibg=#080808 gui=underline cterm=underline
     hi SpellCap guifg=#b8b8b8 guibg=#080808 gui=NONE cterm=NONE
     hi SpellLocal guifg=#b8b8b8 guibg=#080808 gui=NONE cterm=NONE
     hi SpellRare guifg=#b8b8b8 guibg=#080808 gui=NONE cterm=NONE
@@ -288,7 +288,7 @@ if s:t_Co >= 256
     hi Search ctermfg=203 ctermbg=232 cterm=bold
     hi SignColumn ctermfg=250 ctermbg=232 cterm=NONE
     hi SpecialKey ctermfg=250 ctermbg=232 cterm=NONE
-    hi SpellBad ctermfg=203 ctermbg=232 cterm=undercurl
+    hi SpellBad ctermfg=203 ctermbg=232 cterm=underline
     hi SpellCap ctermfg=250 ctermbg=232 cterm=NONE
     hi SpellLocal ctermfg=250 ctermbg=232 cterm=NONE
     hi SpellRare ctermfg=250 ctermbg=232 cterm=NONE
@@ -450,7 +450,7 @@ if s:t_Co >= 8
     hi Search ctermfg=NONE ctermbg=NONE cterm=bold
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
     hi SpecialKey ctermfg=NONE ctermbg=NONE cterm=NONE
-    hi SpellBad ctermfg=NONE ctermbg=NONE cterm=undercurl
+    hi SpellBad ctermfg=NONE ctermbg=NONE cterm=underline
     hi SpellCap ctermfg=NONE ctermbg=NONE cterm=NONE
     hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=NONE
     hi SpellRare ctermfg=NONE ctermbg=NONE cterm=NONE

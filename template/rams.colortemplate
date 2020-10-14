@@ -105,7 +105,7 @@ Question             white             black
 Search               accent            black             bold
 SignColumn           white             black
 SpecialKey           white             black
-SpellBad             accent            black             undercurl
+SpellBad             accent            black             underline
 SpellCap             white             black
 SpellLocal           white             black
 SpellRare            white             black
