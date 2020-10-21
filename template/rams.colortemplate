@@ -85,7 +85,7 @@ CursorLineNr         white             black
 DiffAdd              black             green
 DiffChange           white             black             reverse
 DiffDelete           black             red
-DiffText             white             black             bold,reverse
+DiffText             accent            black             bold
 Directory            white             black
 EndOfBuffer          white             black
 ErrorMsg             white             black             reverse
@@ -195,9 +195,9 @@ CursorColumn         black             grey
 CursorLine           black             white
 CursorLineNr         black             white             bold
 DiffAdd              black             green
-DiffChange           black             white             reverse
+DiffChange           black             white
 DiffDelete           black             red
-DiffText             black             white             bold
+DiffText             accent            white             bold
 Directory            black             white
 EndOfBuffer          black             white
 ErrorMsg             black             white             reverse
