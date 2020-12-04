@@ -134,7 +134,7 @@ Todo                 accent            none              bold,underline
 Type                 white             none
 Underlined           white             none
 ; See `:help CursorIM`
-CursorIM             none              fg
+CursorIM             none              none
 ; See `:help window-toolbar`
 ToolbarLine          none              white
 ToolbarButton        white             black             bold
@@ -246,7 +246,7 @@ Todo                 accent            none              bold,underline
 Type                 black             none
 Underlined           black             none
 ; See `:help CursorIM`
-CursorIM             none              fg
+CursorIM             none              none
 ; See `:help window-toolbar`
 ToolbarLine          none              black
 ToolbarButton        black             white             bold
