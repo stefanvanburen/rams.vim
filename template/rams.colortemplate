@@ -83,7 +83,7 @@ CursorColumn         white             black
 CursorLine           white             black
 CursorLineNr         white             black
 DiffAdd              black             green
-DiffChange           white             black             reverse
+DiffChange           black             white
 DiffDelete           black             red
 DiffText             accent            black             bold
 Directory            white             black
@@ -91,7 +91,7 @@ EndOfBuffer          white             black
 ErrorMsg             white             black             reverse
 FoldColumn           white             black
 Folded               white             black             italic
-IncSearch            accent            black             bold
+IncSearch            black             accent            bold
 LineNr               white             black
 MatchParen           accent            black             bold,reverse
 ModeMsg              white             black
@@ -102,7 +102,7 @@ PmenuSbar            white             black
 PmenuSel             white             black             reverse
 PmenuThumb           white             black
 Question             white             black
-Search               accent            black             bold
+Search               black             accent            bold
 SignColumn           white             black
 SpecialKey           white             black
 SpellBad             accent            black             underline
@@ -203,7 +203,7 @@ EndOfBuffer          black             white
 ErrorMsg             black             white             reverse
 FoldColumn           black             white
 Folded               black             white             italic
-IncSearch            white             accent            bold,italic
+IncSearch            white             accent            bold
 LineNr               black             white
 MatchParen           white             accent            bold,reverse
 ModeMsg              black             white
@@ -214,7 +214,7 @@ PmenuSbar            black             white
 PmenuSel             black             white             reverse
 PmenuThumb           black             white
 Question             black             white
-Search               accent            white             bold,reverse
+Search               white             accent            bold
 SignColumn           black             white
 SpecialKey           black             white
 SpellBad             accent            white             underline
@@ -223,7 +223,7 @@ SpellLocal           black             white
 SpellRare            black             white
 StatusLine           black             white             reverse
 StatusLineNC         black             white
-Substitute           black             white             bold,italic,reverse
+Substitute           black             white             bold,reverse
 TabLine              black             white
 TabLineFill          black             white
 TabLineSel           black             white             reverse
