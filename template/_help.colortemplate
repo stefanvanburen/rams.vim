@@ -4,9 +4,9 @@ documentation
 *@shortname.txt*	For Vim version @vimversion	Last change: @date
 
 
-		  @fullname color scheme    by @author
+		  @fullname color scheme    by Stefan VanBuren
 
-@fullname, a color scheme with a unique touch.
+@fullname, @description.
 
 ==============================================================================
 Color scheme options					@shortname-options*

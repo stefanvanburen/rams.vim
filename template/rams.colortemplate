@@ -2,12 +2,11 @@
 
 ; Information {{{
 ; Mandatory
-Full name:     RAMS
+Full name:     rams
 Short name:    rams
-Author:        Stefan VanBuren <vanburenstefan@gmail.com>
+Author:        Stefan VanBuren <me@svbn.me>
 ; Optional
-Maintainer:    Stefan VanBuren <vanburenstefan@gmail.com>
-Website:       https://svbn.me
+Website:       https://github.com/svanburen/rams.vim
 Description:   a minimal colorscheme
 License:       MIT
 Option Prefix: rams

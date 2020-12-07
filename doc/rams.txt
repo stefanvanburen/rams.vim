@@ -1,9 +1,9 @@
-*rams.txt*	For Vim version 8.0	Last change: 2020 Dec 05
+*rams.txt*	For Vim version 8.0	Last change: 2020 Dec 07
 
 
-		  RAMS color scheme    by Stefan
+		  rams color scheme    by Stefan VanBuren
 
-RAMS, a color scheme with a unique touch.
+rams, a minimal colorscheme.
 
 ==============================================================================
 Color scheme options					rams-options*
