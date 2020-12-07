@@ -92,7 +92,7 @@ FoldColumn           white             black
 Folded               white             black             italic
 IncSearch            black             accent            bold
 LineNr               white             black
-MatchParen           accent            black             bold,reverse
+MatchParen           black             accent             bold,reverse
 ModeMsg              white             black
 MoreMsg              white             black
 NonText              grey              black
