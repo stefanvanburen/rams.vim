@@ -30,8 +30,6 @@ colorscheme rams
 
 == Screenshots
 
-.Light Mode
-image::https://user-images.githubusercontent.com/622527/101364944-2483a800-3871-11eb-834d-e3ff9bb12fed.png[]
+image::https://user-images.githubusercontent.com/622527/101421312-04c8a000-38c2-11eb-9e9b-faa187a6e8f4.png[Light Mode]
 
-.Dark Mode
-image::https://user-images.githubusercontent.com/622527/101364664-d1115a00-3870-11eb-99de-87a5c2a0a531.png[]
+image::https://user-images.githubusercontent.com/622527/101421244-e4004a80-38c1-11eb-9ab5-b0f549053190.png[Dark Mode]
