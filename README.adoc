@@ -21,3 +21,9 @@ Plug 'svanburen/rams.vim'
 ----
 colorscheme rams
 ----
+
+== Supported plugins
+
+* https://github.com/dense-analysis/ale[ALE]
+* https://github.com/tpope/vim-fugitive[fugitive]
+* https://github.com/ntpeters/vim-better-whitespace[vim-better-whitespace]
