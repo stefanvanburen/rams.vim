@@ -143,9 +143,9 @@ ToolbarButton        white             black             bold
 ; Add additional highlight groups here if you want
 
 ; w0rp/ale
-ALEError                         accent none underline
-ALEWarning                       accent none underline
-ALEInfo                          accent none underline
+ALEError                         accent none
+ALEWarning                       accent none
+ALEInfo                          accent none
 ALEErrorSign                     accent none
 ALEWarningSign                   accent none
 ALEInfoSign                      accent none
@@ -255,9 +255,9 @@ ToolbarButton        black             white             bold
 ; Add additional highlight groups here if you want
 
 ; w0rp/ale
-ALEError                         accent none underline
-ALEWarning                       accent none underline
-ALEInfo                          accent none underline
+ALEError                         accent none
+ALEWarning                       accent none
+ALEInfo                          accent none
 ALEErrorSign                     accent none
 ALEWarningSign                   accent none
 ALEInfoSign                      accent none
