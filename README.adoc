@@ -1,6 +1,6 @@
 = rams.vim
 
-A minimalistic vim colorscheme, inspired by the work of Dieter Rams.
+A minimal vim colorscheme, inspired by the work of Dieter Rams.
 
 The colorscheme is currently generated via https://github.com/lifepillar/vim-colortemplate[vim-colortemplate].
 
