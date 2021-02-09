@@ -54,7 +54,7 @@ Background: dark
 
 ; Color palette for dark variant {{{
 ; Color name                GUI                  Base256    Base16
-Color: black                rgb(020, 020, 020)     ~        none
+Color: black                rgb( 20,  20,  20)     ~        none
 Color: white                rgb(235, 235, 235)     ~        none
 Color: accent               rgb(238,  72,  62)     ~        none
 ; TODO: Tweak these values
@@ -161,6 +161,11 @@ ExtraWhitespace -> SpellBad
 ; when editing git commit text, highlight the overflow in the first line (over 50 characters).
 gitcommitOverflow -> SpellBad
 
+; nvim-lsp
+LspReferenceRead  none none italic,reverse
+LspReferenceText  none none italic,reverse
+LspReferenceWrite none none italic,reverse
+
 ; }}}
 
 Background: light
@@ -255,12 +260,12 @@ ToolbarButton        black             white             bold
 ; Add additional highlight groups here if you want
 
 ; w0rp/ale
-ALEError                         accent none
-ALEWarning                       accent none
-ALEInfo                          accent none
-ALEErrorSign                     accent none
-ALEWarningSign                   accent none
-ALEInfoSign                      accent none
+ALEError       accent none
+ALEWarning     accent none
+ALEInfo        accent none
+ALEErrorSign   accent none
+ALEWarningSign accent none
+ALEInfoSign    accent none
 
 ; these are needed for things like inline diffs in Fugitive to work.
 ; from runtime/syntax/diff.vim
@@ -272,6 +277,18 @@ ExtraWhitespace -> SpellBad
 
 ; when editing git commit text, highlight the overflow in the first line (over 50 characters).
 gitcommitOverflow -> SpellBad
+
+; nvim-lsp
+LspReference none none italic,reverse
+
+LspReferenceRead  -> LspReference
+LspReferenceText  -> LspReference
+LspReferenceWrite -> LspReference
+
+LspDiagnosticsDefaultHint        none none undercurl
+LspDiagnosticsDefaultInformation none none undercurl
+LspDiagnosticsDefaultWarning     accent none
+LspDiagnosticsDefaultError       accent none standout
 
 ; }}}
 
