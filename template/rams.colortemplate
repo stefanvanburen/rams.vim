@@ -59,6 +59,7 @@ Color: white                rgb(235, 235, 235)     ~        none
 Color: accent               rgb(238,  72,  62)     ~        none
 ; TODO: Tweak these values
 Color: grey                 rgb(140, 140, 140)     ~        none
+Color: lightgrey            rgb(100, 100, 100)     ~        none
 Color: green                rgb(174, 255, 139)     ~        none
 Color: red                  rgb(255, 114, 110)     ~        none
 ; }}}
@@ -162,9 +163,16 @@ ExtraWhitespace -> SpellBad
 gitcommitOverflow -> SpellBad
 
 ; nvim-lsp
-LspReferenceRead  none none italic,reverse
-LspReferenceText  none none italic,reverse
-LspReferenceWrite none none italic,reverse
+LspReference none lightgrey
+
+LspReferenceRead  -> LspReference
+LspReferenceText  -> LspReference
+LspReferenceWrite -> LspReference
+
+LspDiagnosticsDefaultHint        none none undercurl
+LspDiagnosticsDefaultInformation none none undercurl
+LspDiagnosticsDefaultWarning     accent none
+LspDiagnosticsDefaultError       accent none standout
 
 ; }}}
 
@@ -176,6 +184,7 @@ Color: black                rgb( 38,  43,  49)     ~        none
 Color: white                rgb(235, 235, 235)     ~        none
 Color: accent               rgb(238,  72,  62)     ~        none
 Color: grey                 rgb(120, 120, 120)     ~        none
+Color: lightgrey            rgb(210, 210, 210)     ~        none
 Color: green                rgb(174, 255, 139)     ~        none
 Color: red                  rgb(255, 114, 110)     ~        none
 ; }}}
@@ -279,7 +288,7 @@ ExtraWhitespace -> SpellBad
 gitcommitOverflow -> SpellBad
 
 ; nvim-lsp
-LspReference none none italic,reverse
+LspReference none lightgrey
 
 LspReferenceRead  -> LspReference
 LspReferenceText  -> LspReference
