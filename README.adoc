@@ -4,7 +4,7 @@ A minimal vim colorscheme, inspired by the work of Dieter Rams.
 
 The colorscheme is currently generated via https://github.com/lifepillar/vim-colortemplate[vim-colortemplate].
 
-I've described the colorscheme in a bit more detail https://svbn.me/blog/rams.vim[on my website].
+I've described the colorscheme in a bit more detail https://stefan.vanburen.xyz/blog/rams.vim[on my website].
 
 == Installation
 
@@ -12,7 +12,7 @@ If you're using a plugin manager, like https://github.com/junegunn/vim-plug[vim-
 
 [source]
 ----
-Plug 'svanburen/rams.vim'
+Plug 'stefanvanburen/rams.vim'
 ----
 
 == Usage
