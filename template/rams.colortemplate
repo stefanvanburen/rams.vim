@@ -4,9 +4,9 @@
 ; Mandatory
 Full name:     rams
 Short name:    rams
-Author:        Stefan VanBuren <me@svbn.me>
+Author:        Stefan VanBuren <stefan@vanburen.xyz>
 ; Optional
-Website:       https://github.com/svanburen/rams.vim
+Website:       https://github.com/stefanvanburen/rams.vim
 Description:   a minimal colorscheme
 License:       MIT
 Option Prefix: rams
