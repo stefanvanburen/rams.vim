@@ -169,10 +169,10 @@ LspReferenceRead  -> LspReference
 LspReferenceText  -> LspReference
 LspReferenceWrite -> LspReference
 
-LspDiagnosticsDefaultHint        none none undercurl
-LspDiagnosticsDefaultInformation none none undercurl
+LspDiagnosticsDefaultHint        none none
+LspDiagnosticsDefaultInformation none none
 LspDiagnosticsDefaultWarning     accent none
-LspDiagnosticsDefaultError       accent none standout
+LspDiagnosticsDefaultError       accent none
 
 ; }}}
 
@@ -294,10 +294,10 @@ LspReferenceRead  -> LspReference
 LspReferenceText  -> LspReference
 LspReferenceWrite -> LspReference
 
-LspDiagnosticsDefaultHint        none none undercurl
-LspDiagnosticsDefaultInformation none none undercurl
+LspDiagnosticsDefaultHint        none none
+LspDiagnosticsDefaultInformation none none
 LspDiagnosticsDefaultWarning     accent none
-LspDiagnosticsDefaultError       accent none standout
+LspDiagnosticsDefaultError       accent none
 
 ; }}}
 
