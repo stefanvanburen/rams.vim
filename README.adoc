@@ -1,5 +1,14 @@
 = rams.vim
 
+[link=https://www.repostatus.org/#inactive]
+image::https://www.repostatus.org/badges/latest/inactive.svg["Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows."]
+
+> rams.vim is in maintenance mode -
+> I believe it to be done,
+> but issues will still be fixed and pull requests considered!
+> I'm currently working on https://github.com/stefanvanburen/rams[rams],
+> a neovim colorscheme that I hope will one day be a general-purpose colorscheme.
+
 A minimal vim colorscheme, inspired by the work of Dieter Rams.
 
 The colorscheme is currently generated via https://github.com/lifepillar/vim-colortemplate[vim-colortemplate].
